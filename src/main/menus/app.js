@@ -70,7 +70,7 @@ var createTemplate = function(mainWindow, config) {
     }, {
       role: 'selectall'
     }, separatorItem, {
-      label: 'Search in Current Channel',
+      label: 'Search',
       accelerator: 'CmdOrCtrl+F',
       click: (item, focusedWindow) => {
         if (focusedWindow) {
